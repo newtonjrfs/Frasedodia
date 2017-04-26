@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="frasedodia.newton.com.frasedodia.MainActivity">
+
+    <Button
+        android:id="@+id/botaoNovaFrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="casual"
+        android:text="@string/texto_frase_dia"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textoNovaFraseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/botaoNovaFrase"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_nova_frase" />
+</RelativeLayout>
